@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+<body>
+        <h1>Jespers Quiz</h1>
+
+
+        <form id = "quiz" name = "quiz">
+        
+        
+        <p class = "questions">What is the capital of Sweden?</p>
+        <input id = "textbox" type = "text" name = "question1">
+        
+        <p class = "questions">What is the capital of Denmark?</p>
+        <input id = "textbox" type = "text" name = "question2">
+        
+        <p class = "questions">What is the capital of Finland?</p>        
+        <input id = "textbox" type = "text" name = "question3">
+        
+        <input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+        
+       </form>
+        
+        <div id = "after_submit">
+        <p id = "number_correct"></p>
+        <p id = "message"></p>
+        <img id = "picture">
+        </div>
+        <script src = "script.js"></script>
+</body>
+</html>
